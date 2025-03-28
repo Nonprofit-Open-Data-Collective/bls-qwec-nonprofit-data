@@ -15,6 +15,27 @@ This repository contains code to convert the XLS formats provided by the BLS int
 | f-01017 | Chambers County, Alabama | 179                   | 12                   | 32,040                | 5,735                | 616                   | 2.70%                  | 6,514                  | 525                   | 37,808                 | 246,279               | 727                    | 0.84                      |
 
 
+
+**DATA DICTIONARY**
+
+| BLS field name                    | New field name                     | Field description                                                                                             |
+| --------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| FIPS                              | fips                               | FIPS code (00 = U.S. Totals; excludes Puerto Rico and Virgin Islands)                                         |
+| Geographic title                  | geo_title                          | Name of area                                                                                                  |
+| NAICS                             | naics                              | Industry code using the North American Industrial Classification System (NAICS), (10 = total private figures) |
+| Industry title                    | ind_title                          | NAICS title                                                                                                   |
+| Year                              | year                               | Calendar year for which estimates are available                                                               |
+| Average establishments            | priv_estab, npo_estab              | The 4 quarter average number of establishments for the year                                                   |
+| Average annual employment         | priv_employ, npo_employ            | The 12 month average employment for the year                                                                  |
+| Total annual wages (in thousands) | priv_wages, npo_wages              | All wages paid for the year                                                                                   |
+| Average annual wage per employee  | priv_salary, npo_salary            | Total annual wages divided by average annual employment                                                       |
+| Average weekly wage per employee  | priv_weekly, npo_weekly            | Average annual wage divided by 52                                                                             |
+| Percent employment 501(c)(3)      | percent_npo                        | Percentage of employees in 501(c)(3) establishments relative to all establishments                            |
+| Wage ratio                        | wage_ratio_npo                     | Ratio of wages in 501(c)(3) establishments relative to all non-501(c)(3) establishments                       |
+| Geographic level                  | wide file is at COUNTY ONLY        | Four levels of detail: U.S., state, MSA and county                                                            |
+| Industry level                    | wide file is at 2-DIGIT LEVEL ONLY | Four levels of NAICS detail: total private, sector, subsector and industry group                              |
+
+
 ### Industry Levels 
 
 ```r
