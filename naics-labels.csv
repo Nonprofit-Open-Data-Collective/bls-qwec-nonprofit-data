@@ -1,0 +1,22 @@
+naics,ind_abbr,ind_title,ind_level
+10xx_naics,10_all,Total Private,1_Total_Private
+11xx_naics,11_agro,"Agriculture, Forestry, Fishing and Hunting",2_Sector_(2-digit_NAICS)
+21xx,21_mine,"Mining, Quarrying, and Oil and Gas Extraction",2_Sector_(2-digit_NAICS)
+22xx,22_util,Utilities,2_Sector_(2-digit_NAICS)
+23xx_naics,23_cons,Construction,2_Sector_(2-digit_NAICS)
+31xx_naics,31_manu,Manufacturing,2_Sector_(2-digit_NAICS)
+42xx_naics,42_whol,Wholesale Trade,2_Sector_(2-digit_NAICS)
+44xx_naics,44_reta,Retail Trade,2_Sector_(2-digit_NAICS)
+48xx_naics,48_tran,Transportation and Warehousing,2_Sector_(2-digit_NAICS)
+51xx_naics,51_info,Information,2_Sector_(2-digit_NAICS)
+52xx_naics,52_fnce,Finance and Insurance,2_Sector_(2-digit_NAICS)
+53xx_naics,53_rest,Real Estate and Rental and Leasing,2_Sector_(2-digit_NAICS)
+54xx_naics,54_tech,"Professional, Scientific, and Technical Services",2_Sector_(2-digit_NAICS)
+55xx_naics,55_mgmt,Management of Companies and Enterprises,2_Sector_(2-digit_NAICS)
+56xx_naics,56_wast,Administrative and Support and Waste Management and Remediation Services,2_Sector_(2-digit_NAICS)
+61xx_naics,61_educ,Educational Services,2_Sector_(2-digit_NAICS)
+62xx_naics,62_heal,Health Care and Social Assistance,2_Sector_(2-digit_NAICS)
+71xx_naics,71_arts,"Arts, Entertainment, and Recreation",2_Sector_(2-digit_NAICS)
+72xx_naics,72_acom,Accommodation and Food Services,2_Sector_(2-digit_NAICS)
+81xx_naics,81_othr,Other Services (except Public Administration),2_Sector_(2-digit_NAICS)
+,99_misc,,
